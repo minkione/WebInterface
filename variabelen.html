@@ -1,0 +1,75 @@
+<!-- AWP_In_Variable Name='AirP' Use='"DB_AnalogVal".AirPressure' -->
+
+<!-- AWP_In_Variable Name='LowAir' Use='"DB_Web".LowAirPressure' -->
+<!-- AWP_In_Variable Name='HighAir' Use='"DB_Web".HighAirPressure' -->
+<!-- AWP_In_Variable Name='Freq' Use='"DB_Web".ShakerFreq' -->
+
+<!-- AWP_In_Variable Name='ResFuse' Use='"DB_Web".ResPSE200' -->
+
+
+<!DOCTYPE html>
+
+<html>
+    
+<head>
+    <title>TOMRA PLC</title>
+    <link rel="stylesheet" type="text/css"  href="css/navigatie.css">
+    <link rel="stylesheet" type="text/css"  href="css/styles.css">
+    <link rel="stylesheet" href="css/font-awesome-4.4.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="images/tomra.ico">
+    <meta charset="utf-8">
+</head>
+    
+<body>
+    <nav id="nav">
+    </nav>
+    
+    
+    <div id="topcover"></div>
+    
+    
+    <div id="block">
+        <div id="content">           
+            <p id="">
+                Actual Air Pressure (Bar) :=AirP:
+            </p>
+            
+            <div id="kader">
+                <form method="post">
+                    <table>
+                        <tr>
+                            <td>Low Air pressure limit (mBar)</td>
+                            <td><input value=":=LowAir:" name='LowAir' type="number" id="tab"></td>
+                        </tr>
+                        <tr>
+                            <td>High Air pressure limit (mBar)</td>
+                            <td><input value=":=HighAir:" name='HighAir' type="number" id="tab"></td>
+                        </tr>
+                        <tr>
+                            <td>Shaker speed (0-100%)</td>
+                            <td><input value=":=Freq:" name='Freq' type="number" id="tab"></td>
+                        </tr>
+                        <tr>
+                            <td><button id="knop" type="submit">Save</button></td>
+                        </tr>
+                    </table>
+                </form>	
+            </div>
+
+            
+            <div id="kader">
+                <p id="ResFuse">
+                    <button id="resetfuseknop">Reset Fuses</button>
+                </p>
+            </div>
+            
+            
+            <div id="kader">
+                <ul id='log'></ul>
+            </div>
+            
+        </div>
+    </div>
+    <script src="scripts/javascript.js"></script>
+</body>
+</html>

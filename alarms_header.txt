@@ -1,0 +1,16 @@
+<!-- AWP_In_Variable Name='FLT0' Use='"DB_Web".Failure0' -->
+<!-- AWP_In_Variable Name='FLT1' Use='"DB_Web".Failure1' -->
+<!-- AWP_In_Variable Name='FLT2' Use='"DB_Web".Failure2' -->
+<!-- AWP_In_Variable Name='FLT3' Use='"DB_Web".Failure3' -->
+<!-- AWP_In_Variable Name='FLT4' Use='"DB_Web".Failure4' -->
+<!-- AWP_In_Variable Name='FLT5' Use='"DB_Web".Failure5' -->
+<!-- AWP_In_Variable Name='FLT6' Use='"DB_Web".Failure6' -->
+<!-- AWP_In_Variable Name='FLT7' Use='"DB_Web".Failure7' -->
+<!-- AWP_In_Variable Name='FLT8' Use='"DB_Web".Failure8' -->
+<!-- AWP_In_Variable Name='FLT9' Use='"DB_Web".Failure9' -->
+<!-- AWP_In_Variable Name='FLT10' Use='"DB_Web".Failure10' -->
+<!-- AWP_In_Variable Name='FLT11' Use='"DB_Web".Failure11' -->
+<!-- AWP_In_Variable Name='FLT12' Use='"DB_Web".Failure12' -->
+<!-- AWP_In_Variable Name='FLT13' Use='"DB_Web".Failure13' -->
+<!-- AWP_In_Variable Name='FLT14' Use='"DB_Web".Failure14' -->
+<!-- AWP_In_Variable Name='FLT15' Use='"DB_Web".Failure15' -->

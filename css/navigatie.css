@@ -1,0 +1,52 @@
+nav{
+    position: fixed;  
+    width: 100%;   
+}
+
+#topcover{  
+    height:44px;    
+} 
+
+.navbar{    
+    background-color: grey;     
+    height:44px;    
+}
+
+#nav-top-left{  
+    float: left;    
+    height: 44px;   
+}
+
+#nav-top-right{
+    float:right;
+    text-align: center;
+    width:110px;
+    height:44px;
+}
+
+.navbar ul{
+    margin: 0; 	
+    padding: 0;
+}
+
+.navbar ul li {
+	display: inline-block; 
+    list-style-type: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+}
+
+#active{
+    background-color: yellowgreen;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#machinePicture{
+    /*float: left;*/
+    height: auto;
+    width: auto;
+    margin-top: 50px;
+}
+
